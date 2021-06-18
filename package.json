@@ -1,0 +1,16 @@
+{
+  "name": "lit-pass-keeper",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "npx esbuild src/index.ts --outfile=index.js --format=esm --bundle",
+    "serve": "npx esbuild src/index.ts --outfile=index.js --format=esm --bundle --servedir=."
+  },
+  "author": "kfdf",
+  "license": "MIT",
+  "dependencies": {
+    "@types/wicg-file-system-access": "^2020.9.1",
+    "esbuild": "^0.12.6",
+    "immer": "^9.0.2",
+    "lit": "^2.0.0-rc.2"
+  }
+}
